@@ -50,29 +50,13 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             type: 'text',
-            content: '"Using WaPo figures, we calculated that ChatGPT may presently use around 39.98 Million kWh per day — enough to charge eight million phones." - Wright, Ian. “ChatGPT Energy Consumption Visualized - BEUK.” Business Energy UK (blog), February 17, 2025. https://www.businessenergyuk.com/knowledge-hub/chatgpt-energy-consumption-visualized/.com .'
+            content: '"... ChatGPT may presently use around 39.98 Million kWh per day — enough to charge eight million phones." - Wright, Ian. “ChatGPT Energy Consumption Visualized - BEUK.” Business Energy UK (blog), February 17, 2025. https://www.businessenergyuk.com/knowledge-hub/chatgpt-energy-consumption-visualized/.com .'
         },
         {
             type: 'text',
             content: 'Each year, the 117 lowest-consumption countries each consume less electricity than ChatGPT. - Wright, Ian. “ChatGPT Energy Consumption Visualized - BEUK.” Business Energy UK (blog), February 17, 2025. https://www.businessenergyuk.com/knowledge-hub/chatgpt-energy-consumption-visualized/.com.'
         },
-         {
-            type: 'text',
-            content: 'To add more content, simply add new objects to the contentLibrary array in this JavaScript file. The content will automatically be included in the rotation.'
-        },
-         {
-            type: 'text',
-            content: 'To add more content, simply add new objects to the contentLibrary array in this JavaScript file. The content will automatically be included in the rotation.'
-        },
-        {
-            type: 'image',
-            src: 'images/placeholder-2.jpg',
-            caption: 'Another example image with a different caption. The library can contain any number of text and image items.'
-        },
-        {
-            type: 'text',
-            content: 'This is the final example text in the default library. You can add as many items as you want to the contentLibrary array.'
-        },
+         
          {
             type: 'image',
             src: 'images/placeholder-1.jpg',
