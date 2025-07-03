@@ -154,10 +154,4 @@ This project is created as an art installation. Please contact the artists for u
 
 For additional information, sources, and bibliography, see the [Resources page](resources.html) included with the installation.
 
-echo "# FireandWater" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/drmoniquet/FireandWater.git
-git push -u origin main
+
