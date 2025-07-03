@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Fire and Water</title>
+    <link rel="stylesheet" href="css/flash-styles.css">
+    <!-- Special Courier/typewriter font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Resources</h1>
+            <p class="subtitle">Additional information and resources for Fire and Water</p>
+        </header>
+        
+        <main>
+            <div class="resources-content">
+                <h2>About Fire and Water</h2>
+                <p>
+                    Fire and Water is a simple web application that rotates through a library of text and image content.
+                    Each piece of content is displayed for 15 seconds before automatically changing to the next item.
+                </p>
+                
+                <h2>How to Add Content</h2>
+                <p>
+                    To add more content to the display, edit the <code>contentLibrary</code> array in the <code>js/flash-script.js</code> file.
+                    You can add text items or image items with the following format:
+                </p>
+                
+                <pre>
+// For text items:
+{
+    type: 'text',
+    content: 'Your text content here.'
+}
+
+// For image items:
+{
+    type: 'image',
+    src: 'path/to/your/image.jpg',
+    caption: 'Optional caption for the image.'
+}
+                </pre>
+                
+                <h2>Customization</h2>
+                <p>
+                    You can customize the appearance by editing the CSS file at <code>css/flash-styles.css</code>.
+                    Some things you might want to customize:
+                </p>
+                <ul>
+                    <li>Colors and background</li>
+                    <li>Font sizes and styles</li>
+                    <li>Container dimensions</li>
+                    <li>Transition effects</li>
+                </ul>
+                
+                <h2>Advanced Usage</h2>
+                <p>
+                    For advanced users, you can modify the JavaScript to change the timing, add new features,
+                    or integrate with other systems. The core functionality is in the <code>js/flash-script.js</code> file.
+                </p>
+                
+                <h2>Bibliography: Environmental cost of the digital and AI</h2>
+                <div class="bibliography">
+                    <p>Berreby, David. "As Use of A.I. Soars, So Does the Energy and Water It Requires." Yale Environment 360, February 6, 2024. <a href="https://e360.yale.edu/features/artificial-intelligence-climate-energy-emissions">https://e360.yale.edu/features/artificial-intelligence-climate-energy-emissions</a>.</p>
+                    
+                    <p>Brown, Tom B., Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, et al. "Language Models Are Few-Shot Learners." arXiv, July 22, 2020. <a href="https://doi.org/10.48550/arXiv.2005.14165">https://doi.org/10.48550/arXiv.2005.14165</a>.</p>
+                    
+                    <p>Burrington, Ingrid. "The Environmental Toll of a Netflix Binge." The Atlantic (blog), December 16, 2015. <a href="https://www.theatlantic.com/technology/archive/2015/12/there-are-no-clean-clouds/420744/">https://www.theatlantic.com/technology/archive/2015/12/there-are-no-clean-clouds/420744/</a>.</p>
+                    
+                    <p>Chakraborty, Srija. "Towards A Comprehensive Assessment of AI's Environmental Impact," 2024. <a href="https://doi.org/10.48550/ARXIV.2405.14004">https://doi.org/10.48550/ARXIV.2405.14004</a>.</p>
+                    
+                    <p>Collier, Andrew. "Artificial Intelligence Is Using a Ton of Water. Here's How to Be More Resourceful." Veolia WTS, August 22, 2024. <a href="https://www.watertechnologies.com/blog/artificial-intelligence-using-ton-water-heres-how-be-more-resourceful">https://www.watertechnologies.com/blog/artificial-intelligence-using-ton-water-heres-how-be-more-resourceful</a>.</p>
+                    
+                    <p>Couldry, Nick, and Ulises A Mejias. The Costs of Connection: How Data Is Colonizing Human Life and Appropriating It for Capitalism. Stanford UP, 2019.</p>
+                    
+                    <p>Dodge, Jesse, Taylor Prewitt, Remi Tachet Des Combes, Erika Odmark, Roy Schwartz, Alexandra Sasha Luccioni, Noah A Smith, and Nicole Decario. "Measuring the Carbon Intensity of AI in Cloud Instances." In 2022 ACM Conference on Fairness, Accountability, and Transparency (FAccT '22). Seoul and New York, 2022. <a href="https://doi.org/10.1145/3531146.3533234">https://doi.org/10.1145/3531146.3533234</a>.</p>
+                    
+                    <p>Edwards, Dustin W. "Digital Rhetoric on a Damaged Planet: Storying Digital Damage as Inventive Response to the Anthropocene." Rhetoric Review 39, no. 1 (January 2, 2020): 59–72. <a href="https://doi.org/10.1080/07350198.2019.1690372">https://doi.org/10.1080/07350198.2019.1690372</a>.</p>
+                    
+                    <p>Gordon, Cindy. "AI Is Accelerating the Loss of Our Scarcest Natural Resource: Water." Forbes, February 25, 2024. <a href="https://www.forbes.com/sites/cindygordon/2024/02/25/ai-is-accelerating-the-loss-of-our-scarcest-natural-resource-water/">https://www.forbes.com/sites/cindygordon/2024/02/25/ai-is-accelerating-the-loss-of-our-scarcest-natural-resource-water/</a>.</p>
+                    
+                    <p>Inie, Nanna, Jeanette Falk, and Raghavendra Selvan. "The HCI GenAI CO2ST Calculator: A Tool for Calculating the Carbon Footprint of Generative AI Use in Human-Computer Interaction Research," 2025. <a href="https://doi.org/10.48550/ARXIV.2504.00692">https://doi.org/10.48550/ARXIV.2504.00692</a>.</p>
+                    
+                    <p>Kwong, Emily, Regina B Barber, Hannah Chinn, and Ramirez. "Why AI Requires so Much Water and Energy : Short Wave : NPR." NPR, May 7, 2025. <a href="https://www.npr.org/2025/05/07/1249592906/energy-water-ai-climate-tech">https://www.npr.org/2025/05/07/1249592906/energy-water-ai-climate-tech</a>.</p>
+                    
+                    <p>Li, Pengfei, Yejia Liu, Jianyi Yang, and Shaolei Ren. "Towards Socially and Environmentally Responsible AI," 2024. <a href="https://doi.org/10.48550/ARXIV.2407.05176">https://doi.org/10.48550/ARXIV.2407.05176</a>.</p>
+                    
+                    <p>Luccioni, Alexandra Sasha, Sylvain Viguier, and Anne-Laure Ligozat. "Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model," n.d.</p>
+                    
+                    <p>Moss, Milja. "LLM Water And Energy Use," July 2024. <a href="https://miljamoss.neocities.org/Articles/LLMWaterAndEnergyUse?utm_source=chatgpt.com">https://miljamoss.neocities.org/Articles/LLMWaterAndEnergyUse?utm_source=chatgpt.com</a>.</p>
+                    
+                    <p>Nicoletti, Leonardo, Michelle Ma, and Dina Bass. "AI Is Draining Water From Areas That Need It Most." Bloomberg.Com, May 8, 2025. <a href="https://www.bloomberg.com/graphics/2025-ai-impacts-data-centers-water-data/">https://www.bloomberg.com/graphics/2025-ai-impacts-data-centers-water-data/</a>.</p>
+                    
+                    <p>Pasek, Anne. Digital Energetics. In Search of Media. Minneapolis, MN: University of Minnesota Press ; Lüneburg, Germany Meson Press, 2023.</p>
+                    
+                    <p>Rani, Pooja, Jan-Andrea Bard, June Sallou, Alexander Boll, Timo Kehrer, and Alberto Bacchelli. "Can We Make Code Green? Understanding Trade-Offs in LLMs vs. Human Code Optimizations," 2025. <a href="https://doi.org/10.48550/ARXIV.2503.20126">https://doi.org/10.48550/ARXIV.2503.20126</a>.</p>
+                    
+                    <p>Rehak, Rainer. "On the (Im)Possibility of Sustainable Artificial Intelligence," September 30, 2024. <a href="https://doi.org/10.5281/ZENODO.14283597">https://doi.org/10.5281/ZENODO.14283597</a>.</p>
+                    
+                    <p>Ren, Shaolei. "How Much Water Does AI Consume? The Public Deserves to Know." OECD.AI Policy Observatory (blog), November 30, 2023. <a href="https://oecd.ai/en/wonk/how-much-water-does-ai-consume">https://oecd.ai/en/wonk/how-much-water-does-ai-consume</a>.</p>
+                    
+                    <p>Ristic, Bora, Kaveh Madani, and Zen Makuch. "The Water Footprint of Data Centers." Sustainability 7, no. 8 (August 2015): 11260–84. <a href="https://doi.org/10.3390/su70811260">https://doi.org/10.3390/su70811260</a>.</p>
+                    
+                    <p>Shivener, Rich, and Dustin Edwards. "The Environmental Unconscious of Digital Composing: Mapping Climate Change Rhetorics in Data Center Ecologies." Enculturation.Net, November 10, 2020. <a href="https://enculturation.net/environmental_unconscious">https://enculturation.net/environmental_unconscious</a>.</p>
+                    
+                    <p>Torcellini, P, N Long, and R Judkoff. "Consumptive Water Use for U.S. Power Production," December 1, 2003. <a href="https://doi.org/10.2172/15005918">https://doi.org/10.2172/15005918</a>.</p>
+                    
+                    <p>Markey, Ed, Senatory of Massachusetts. "Markey, Heinrich, Eshoo, Beyer Introduce Legislation to Investigate, Measure Environmental Impacts of Artificial Intelligence," February 1, 2024. <a href="https://www.markey.senate.gov/news/press-releases/markey-heinrich-eshoo-beyer-introduce-legislation-to-investigate-measure-environmental-impacts-of-artificial-intelligence">https://www.markey.senate.gov/news/press-releases/markey-heinrich-eshoo-beyer-introduce-legislation-to-investigate-measure-environmental-impacts-of-artificial-intelligence</a>.</p>
+                    
+                    <p>Valdivia, Ana. "The Supply Chain Capitalism of AI: A Call to (Re)Think Algorithmic Harms and Resistance through Environmental Lens." Information, Communication & Society 0, no. 0 (September 2023): 1–17. <a href="https://doi.org/10.1080/1369118X.2024.2420021">https://doi.org/10.1080/1369118X.2024.2420021</a>.</p>
+                    
+                    <p>Walsh-Elwell, Noelle. "How Microsoft Measures Datacenter Water and Energy Use to Improve Azure Cloud Sustainability." Microsoft Azure Blog (blog), April 22, 2022. <a href="https://azure.microsoft.com/en-us/blog/how-microsoft-measures-datacenter-water-and-energy-use-to-improve-azure-cloud-sustainability/">https://azure.microsoft.com/en-us/blog/how-microsoft-measures-datacenter-water-and-energy-use-to-improve-azure-cloud-sustainability/</a>.</p>
+                    
+                    <p>Yokoyama, Andre M, Mariza Ferro, and Felipe B. de Paula. "Investigating Hardware and Software Aspects in the Energy Consumption of Machine Learning: A Green AI‐centric Analysis." Concurrency and Computation: Practice and Experience, June 1, 2023. <a href="https://doi.org/10.1002/cpe.7825">https://doi.org/10.1002/cpe.7825</a>.</p>
+                    
+                    <p>Zewe, Adam. "Explained: Generative AI's Environmental Impact." MIT News | Massachusetts Institute of Technology, January 17, 2025. <a href="https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117">https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117</a>.</p>
+                </div>
+            </div>
+            
+            <div class="back-link">
+                <a href="flash-text.html">&larr; Back to Fire and Water</a>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Fire and Water</p>
+        </footer>
+    </div>
+</body>
+</html>
