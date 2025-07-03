@@ -48,20 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
             type: 'text',
             content: 'Fire rips quickly up hill.'
         },
-        {
-            type: 'text',
-            content: '"... ChatGPT may presently use around 39.98 Million kWh per day — enough to charge eight million phones." - Wright, Ian. “ChatGPT Energy Consumption Visualized - BEUK.” Business Energy UK (blog), February 17, 2025. https://www.businessenergyuk.com/knowledge-hub/chatgpt-energy-consumption-visualized/.com .'
-        },
-        {
-            type: 'text',
-            content: 'Each year, the 117 lowest-consumption countries each consume less electricity than ChatGPT. - Wright, Ian. “ChatGPT Energy Consumption Visualized - BEUK.” Business Energy UK (blog), February 17, 2025. https://www.businessenergyuk.com/knowledge-hub/chatgpt-energy-consumption-visualized/.com.'
-        },
-         
-         {
-            type: 'image',
-            src: 'images/placeholder-1.jpg',
-            caption: 'This is an example of an image with a caption. Images will be displayed with their captions for 15 seconds.'
-        },
+       
     ];
 
     // DOM Elements
