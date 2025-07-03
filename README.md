@@ -1,5 +1,7 @@
 # Fire and Water
 
+Access here: https://joleneandmonique.github.io/FireandWater/
+
 An interactive web-based installation that displays rotating content about wildfires, climate change, and environmental themes. Created by Jolene Armstrong and Monique Tschofen (Canada).
 
 ## About the Installation
